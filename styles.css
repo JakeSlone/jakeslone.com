@@ -10,6 +10,9 @@ body {
     background-image: linear-gradient(to top, #83f1ff -100%, #ffffff 100%);
     font-family: 'Poppins', sans-serif;
 }
+section {
+    height: 100vh;
+}
 .wrapper {
     width: 80%;
     margin: 0 auto;
@@ -99,11 +102,11 @@ body {
 .menu img {
     width: 180px;
 }
-.title-container img{
+.title-container img {
     width: 1000px;
     padding-top: 200px;
 }
-.scroll-down img{
+.scroll-down1 img {
     padding-top: 100px;
     width: 60px;
 }
@@ -112,9 +115,6 @@ body {
     margin: 0 auto;
     max-width: 1200px;
 }
-.card {
-    margin: 0;
-}
 .card-body {
     text-align: center;
 }
@@ -122,7 +122,7 @@ body {
     font-family: 'Poppins', sans-serif;
     font-size: 70px;
     display: inline-block;
-    width: 200px;
+    width: 210px;
     border-bottom: 1px solid #26d7ff;
 }
 .row ul {
@@ -130,13 +130,47 @@ body {
     font-family: 'Inconsolata', monospace;
     font-size: 20px;
 }
+.scroll-down2 img {
+    padding-top: 100px;
+    width: 60px;
+}
+.projects {
+    text-align: center;
+}
+.projects-title h5 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 70px;
+    border-bottom: 1px solid #26d7ff;
+    width: 350px;
+    display: inline-block;
+}
 @media (max-width: 1600px) {
 .title-container img {
     width: 800px;
 }
-.scroll-down img {
+.scroll-down1 img {
     padding-top: 20px;
     width: 60px;
+}
+.scroll-down2 img {
+    padding-top: 20px;
+    width: 60px;
+}
+.menulink1 {
+    text-indent: 30px;
+}
+.menulink2 {
+    text-indent: 5px;
+}
+.menulink3 {
+    text-indent: -10px;
+}
+.menu a {
+    font-size: 25px;
+}
+.menu img {
+    width: 140px;
+    padding-right: 10px;
 }
 }
 @media (max-width: 600px) {
@@ -153,7 +187,10 @@ body {
     width: 500px;
     padding-top: 100px;
 }
-.scroll-down {
+.scroll-down1 {
+    display: none;
+}
+.scroll-down2 {
     display: none;
 }
 }

@@ -7,10 +7,10 @@ toggler.addEventListener('click', () => {
     menu.classList.toggle('active');
 });
 // Down Arrow
-$('scrollDown').click(function() {
+$('scrollDown1').click(function() {
     var offset = 20;
 
     $('html, body').animate({
-        scrollTop: $('#down').offset().top + offset
+        scrollTop: $('#down1').offset().top + offset
     }, 1000);
 });

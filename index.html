@@ -10,59 +10,74 @@
     <link rel="stylesheet" type="text/css" media="screen" href="styles.css">
 </head>
 <body>
-<!-- NAV -->
-<div class="menu">
-    <a href="./index.html"><img src="./img/logo-just-text.png" alt=""></a>
-    <a class="menulink1" href="#">Home</a>
-    <a class="menulink2" href="./packages.html">Projects</a>
-    <a class="menulink3" href="./contact.html">Contact</a>
-</div>
-<div class="menu__toggler"><span></span></div>
-<!-- TITLE -->
-<header id="toTop">
-    <div class="title d-flex flex-column align-items-center justify-content-center">
-        <div class="title-container">
-            <a href="#"><img src="./img/logo.png" alt="logo"></a>
-        </div>
-        <div class="scroll-down">
-            <a href="#down" id="scrollDown" style="display:block"><img src="./img/down-arrow.png" alt=""></a>
-        </div>
+<!-- Nav -->
+<section id="home">
+    <div class="menu">
+        <a href="./index.html"><img src="./img/logo-just-text.png" alt=""></a>
+        <a class="menulink1" href="#">Home</a>
+        <a class="menulink2" href="./packages.html">Projects</a>
+        <a class="menulink3" href="./contact.html">Contact</a>
     </div>
-</header>
-<!-- RESUME -->
+    <div class="menu__toggler"><span></span></div>
+    <!-- Title -->
+    <header id="toTop">
+        <div class="title d-flex flex-column align-items-center justify-content-center">
+            <div class="title-container">
+                <a href="#"><img src="./img/logo.png" alt="logo"></a>
+            </div>
+    <!-- Down Arrow 1 -->
+            <div class="scroll-down1">
+                <a href="#down" id="scrollDown1" style="display:block"><img src="./img/down-arrow.png" alt=""></a>
+            </div>
+        </div>
+    </header>
+</section>    
+<!-- Resume -->
 <div class="wrapper">
-    <div class="row pt-5" id="down">
-        <div class="col-sm-6">
-            <div class="card bg-transparent border-0">
-                <div class="card-body">
-                    <h5 class="card-title">Bio</h5>
-                        <ul class="text-center">
-                            <li>Web Developer</li>
-                            <li>Graphic Designer</li>
-                            <li>Esport Enthusiast</li>
-                            <li>Hockey Player</li>
-                            <li>Hard Worker</li>
-                            <li>Team Player</li>
-                        </ul>
+    <section id="bio" class="text-center">
+        <div class="row" id="down">
+            <div class="col-sm-6">
+                <div class="card d-flex justify-content-center bg-transparent border-0">
+                    <div class="card-body">
+                        <h5 class="card-title">Bio</h5>
+                            <ul class="text-center">
+                                <li>Web Developer</li>
+                                <li>Graphic Designer</li>
+                                <li>Alberta Canada</li>
+                                <li>Twenty</li>
+                                <li>Hard Worker</li>
+                                <li>Leader</li>
+                            </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card d-flex justify-content-center bg-transparent border-0">
+                    <div class="card-body">
+                        <h5 class="card-title">Skills</h5>
+                            <ul class="text-center">
+                                <li>HTML/CSS/SASS</li>
+                                <li>Bootstrap</li>
+                                <li>JavaScript/jQuery</li>
+                                <li>PHP/MySQL</li>
+                                <li>Wordpress</li>
+                                <li>Photoshop/Illustrator</li>
+                            </ul>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="col-sm-6">
-            <div class="card bg-transparent border-0">
-                <div class="card-body">
-                    <h5 class="card-title">Skills</h5>
-                        <ul class="text-center">
-                            <li>HTML/CSS/SASS</li>
-                            <li>Bootstrap</li>
-                            <li>JavaScript/jQuery</li>
-                            <li>PHP/MySQL</li>
-                            <li>Wordpress</li>
-                            <li>Photoshop/Illustrator</li>
-                        </ul>
-                </div>
-            </div>
+<!-- Down Arrow 1 -->
+        <div class="scroll-down2 text-center">
+            <a href="#down" id="scrollDown2" style="display:block"><img src="./img/down-arrow.png" alt=""></a>
         </div>
-    </div>
+    </section>    
+<!-- Projects -->
+    <section id="projects">
+        <div class="projects-title">
+            <h5>Projects</h5>
+        </div>
+    </section>    
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

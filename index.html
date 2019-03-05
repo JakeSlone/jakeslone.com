@@ -7,7 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="./img/favicon-32x32.png" type="image/x-icon" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Inconsolata|Poppins" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata|Raleway:200" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" media="screen" href="styles.css">
 </head>
 <body>
@@ -20,6 +21,12 @@
         <a class="menulink3" href="#">Projects</a>
     </div>
     <div class="menu__toggler"><span></span></div>
+<!-- Fixed Socials -->
+<div class="fixed-social d-md-block">
+    <a href="#" class="fixed-twitter"><i class="fab fa-twitter-square"></i></a>
+    <a href="#" class="fixed-email"><i class="fas fa-envelope-square"></i></a>
+    <a href="#" class="fixed-linkedin"><i class="fab fa-linkedin"></i></a>
+</div>
 <!-- Title -->
     <header id="toTop">
         <div class="title d-flex flex-column align-items-center justify-content-center">
@@ -28,31 +35,36 @@
             </div>
 <!-- Down Arrow 1 -->
             <div class="scroll-down1">
-                <a href="#down" id="scrollDown1" style="display:block"><img src="./img/down-arrow.png" alt=""></a>
+                <a href="#down1" id="scrollDown1" style="display:block"><img src="./img/down-arrow.png" alt=""></a>
             </div>
         </div>
     </header>
 </section>    
 <!-- Resume -->
 <div class="wrapper">
-    <section id="about">
-        <div class="row">
-            <div class="col-12 col-md-6">
-                <div class="mx-auto bio-img" id="bioImg">
+    <section id="down1" class="d-flex flex-column align-items-center justify-content-center">
+        <div class="row about-section">
+            <div class="col-12 col-md-6 d-flex flex-column align-items-center">
+                <div class="mx-auto bio-img" id="bioImg" style="background-image: url('./img/code1.jpg');">
                     <!-- Image -->
                 </div>
+                <div class="loader-container">
+                    <div class="loader"></div>
+                </div>    
             </div>
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-md-6 about-text">
                 <h1>About</h1>
                 <p>Welcome to my portfolio! This website hosts my personal projects and my interests. 
                 I am currently studying Web Development at SAIT in Calgary and will be graduating in 
                 April '19. Coding and design is my passion and I am actively sharpening my skills and 
                 creating new projects. I can code in HTML, CSS, JavaScript, PHP/mySQL. I also
-                have experience with Bootstrap and jQuery.
+                have experience with Photoshop and Illustrator.
                 </p>
             </div>
         </div>
-    </section>
+        <div class="icons">
+
+        </div>
 <!-- Down Arrow 1 -->
         <div class="scroll-down2 text-center">
             <a href="#down" id="scrollDown2" style="display:block"><img src="./img/down-arrow.png" alt=""></a>
@@ -65,10 +77,11 @@
         </div>
     </section>    
 </div>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 <script src="script.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </body>
 </html>

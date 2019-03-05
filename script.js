@@ -7,12 +7,12 @@ toggler.addEventListener('click', () => {
     menu.classList.toggle('active');
 });
 // Down Arrow 1
-$('scrollDown1').click(function() {
-    var offset = 20;
-
-    $('html, body').animate({
-        scrollTop: $('#down1').offset().top + offset
-    }, 1000);
+$(document).ready(function () {
+    $("#scrollDown1").click(function () {
+        $('html, body').animate({
+            scrollTop: $("#down1").offset().top
+        }, 3000);
+    });
 });
 // About Image
 let bioImg = document.getElementById('bioImg');
@@ -24,9 +24,9 @@ let imgList = [
 ]
 setInterval(function() {
     img += 1;
-    if (img > bioImg.length - 1) {
+    if (img > imgList.length - 1) {
         img = 0;
     }
-    bioImg.style.backgroundImage = "url('" + [img] + "')";
+    bioImg.style.backgroundImage = "url('" + imgList[img] + "')";
 },1000);
 

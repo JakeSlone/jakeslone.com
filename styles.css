@@ -115,20 +115,12 @@ section {
     margin: 0 auto;
     max-width: 1200px;
 }
-.card-body {
-    text-align: center;
-}
-.card-title {
-    font-family: 'Poppins', sans-serif;
-    font-size: 70px;
-    display: inline-block;
-    width: 210px;
-    border-bottom: 1px solid #26d7ff;
-}
-.row ul {
-    list-style: none;
-    font-family: 'Inconsolata', monospace;
-    font-size: 20px;
+.bio-img {
+    background-image: url('./img/code1.jpg');
+    height: 300px;
+    width: 300px;
+    border-radius: 50px;
+    transition: 0.3s;
 }
 .scroll-down2 img {
     padding-top: 100px;

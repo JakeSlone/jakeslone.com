@@ -266,15 +266,7 @@ section {
 
 @media (max-width: 1050px) {
     .fixed-social {
-        position: relative;
-        top: 50%;
-        right: 0;
-        left: 0;
-        text-align: center;
-    }
-
-    .fixed-social a {
-        display: inline-block;
+        display: none;
     }
 
     .menu__toggler {

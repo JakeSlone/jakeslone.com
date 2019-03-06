@@ -45,4 +45,13 @@ $(document).ready(function () {
         }, 2000);
     });
 });
+// Up Arrow
+$(document).ready(function () {
+    $("#scrollUp").click(function () {
+        $('html, body').animate({
+            scrollTop: $("#home").offset().top
+        }, 2000);
+    });
+});
+
 

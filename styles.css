@@ -237,6 +237,15 @@ section {
     border-bottom: 1px solid #26d7ff;
     width: 350px;
 }
+
+.form-container {
+    margin-top: 60px;
+}
+
+.scroll-up img {
+    width: 60px;
+}
+
 @media (max-width: 1600px) {
     .title-container img {
         width: 800px;

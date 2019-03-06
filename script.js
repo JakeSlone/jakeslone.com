@@ -11,7 +11,7 @@ $(document).ready(function () {
     $("#scrollDown1").click(function () {
         $('html, body').animate({
             scrollTop: $("#down1").offset().top
-        }, 3000);
+        }, 2000);
     });
 });
 // About Image
@@ -34,7 +34,15 @@ $(document).ready(function () {
     $("#scrollDown2").click(function () {
         $('html, body').animate({
             scrollTop: $("#projects").offset().top
-        }, 3000);
+        }, 2000);
+    });
+});
+// Down Arrow 3
+$(document).ready(function () {
+    $("#scrollDown3").click(function () {
+        $('html, body').animate({
+            scrollTop: $("#contact").offset().top
+        }, 2000);
     });
 });
 

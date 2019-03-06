@@ -147,7 +147,7 @@ section {
 }
 
 .menulink2 {
-    text-indent: 30px;
+    text-indent: 20px;
 }
 
 .menu img {
@@ -223,6 +223,20 @@ section {
     padding-right: 28px;
     text-align: center;
 }
+
+.scroll-down3 img {
+    padding-top: 120px;
+    width: 60px;
+}
+
+.contact-title h5 {
+    padding-top: 80px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 70px;
+    border-bottom: 1px solid #26d7ff;
+    width: 350px;
+}
 @media (max-width: 1600px) {
     .title-container img {
         width: 800px;
@@ -243,7 +257,7 @@ section {
     }
 
     .menulink1 {
-        text-indent: 15px;
+        text-indent: 30px;
     }
 
     .menulink2 {
@@ -365,7 +379,6 @@ section {
 /* Projects Buttons */
 .button {
     background: transparent;
-    border: 0;
     padding: 0;
     cursor: pointer;
     outline: 0;
@@ -392,6 +405,7 @@ section {
     -moz-transition: all 0.2s ease;
     -ms-transition: all 0.2s ease;
     transition: all 0.2s ease;
+    border: 1px solid black;
 }
 
 .button:hover {

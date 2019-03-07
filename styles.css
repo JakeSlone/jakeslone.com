@@ -313,7 +313,7 @@ section {
     }
 
     .title-container img {
-        margin-bottom: -80px;
+        margin-bottom: -100px;
     }
 
     #down1 {
@@ -330,6 +330,7 @@ section {
 
     .mobile-form {
         display: block;
+        overflow: hidden;
     }
 
     .mobile-twitter {

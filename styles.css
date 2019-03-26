@@ -8,7 +8,7 @@
 
 body {
     min-height: 100vh;
-    background-image: linear-gradient(to top, #83f1ff -100%, #ffffff 100%);
+    background-color: white;
 }
 
 section {
@@ -170,6 +170,11 @@ section {
     max-width: 1200px;
 }
 
+.about {
+    border-bottom: 2px solid #26d7ff;
+    width: 250px;
+}
+
 .about-section {
     margin: auto;
 }
@@ -179,6 +184,7 @@ section {
     width: 300px;
     border-radius: 75px;
     transition: 0.3s;
+    border: 2px solid #26d7ff;
 }
 
 .about-text {
@@ -204,7 +210,7 @@ section {
     text-align: center;
     font-family: 'Raleway', sans-serif;
     font-size: 70px;
-    border-bottom: 1px solid #26d7ff;
+    border-bottom: 2px solid #26d7ff;
     width: 350px;
     margin-bottom: 80px;
 }
@@ -383,7 +389,7 @@ section {
     left: -200px;
     width: 200px;
     height: 4px;
-    background-color: #000000;
+    background-color: #26d7ff;
     animation: loading 3s linear infinite;
 }
 
@@ -449,7 +455,7 @@ section {
 .button:hover {
     top: -10px;
     box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.4);
-    color: white;
+    color: #26d7ff;
     background: rgb(0, 0, 0);
     text-decoration: none;
     -webkit-transform: rotateX(20deg);
@@ -462,4 +468,13 @@ section {
     top: 0px;
     box-shadow: 0px 0px 0px rgba(0, 250, 250, 0.2);
     background: rgb(0, 247, 255);
+}
+/* Scroll Bar */
+::-webkit-scrollbar {
+    background-color: white;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #26d7ff;
+    border-radius: 10px;
 }

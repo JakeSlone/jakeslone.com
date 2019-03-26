@@ -475,6 +475,6 @@ section {
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #26d7ff;
+    background-color: rgb(159, 241, 255);
     border-radius: 10px;
 }

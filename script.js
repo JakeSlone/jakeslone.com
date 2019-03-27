@@ -6,6 +6,30 @@ toggler.addEventListener('click', () => {
     toggler.classList.toggle('active');
     menu.classList.toggle('active');
 });
+
+$(document).ready(function() {
+    $("#navHome").click(function() {
+        $("html, body").animate({
+            scrollTop: $("#home").offset().top
+        }, 2000);
+    });
+});
+
+$(document).ready(function () {
+    $("#navProjects").click(function () {
+        $("html, body").animate({
+            scrollTop: $("#projects").offset().top
+        }, 2000);
+    });
+});
+
+$(document).ready(function () {
+    $("#navContact").click(function () {
+        $("html, body").animate({
+            scrollTop: $("#contact").offset().top
+        }, 2000);
+    });
+});
 // Down Arrow 1
 $(document).ready(function () {
     $("#scrollDown1").click(function () {

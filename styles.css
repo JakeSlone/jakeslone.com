@@ -171,7 +171,7 @@ section {
 }
 
 .about {
-    border-bottom: 2px solid #26d7ff;
+    border-bottom: 3px solid #26d7ff;
     width: 250px;
 }
 
@@ -210,7 +210,7 @@ section {
     text-align: center;
     font-family: 'Raleway', sans-serif;
     font-size: 70px;
-    border-bottom: 2px solid #26d7ff;
+    border-bottom: 3px solid #26d7ff;
     width: 350px;
     margin-bottom: 80px;
 }
@@ -240,7 +240,7 @@ section {
     text-align: center;
     font-family: 'Raleway', sans-serif;
     font-size: 70px;
-    border-bottom: 2px solid #26d7ff;
+    border-bottom: 3px solid #26d7ff;
     width: 350px;
 }
 
@@ -344,6 +344,13 @@ section {
     .title-container img {
         width: 500px;
         padding-top: 100px;
+    }
+
+    .about {
+        text-indent: 0px;
+        text-align: center;
+        width: 280px;
+        margin: auto;
     }
 
     .about-text h1 {
@@ -456,7 +463,7 @@ section {
     top: -10px;
     box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.4);
     color: #26d7ff;
-    background: rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
     text-decoration: none;
     -webkit-transform: rotateX(20deg);
     -moz-transform: rotateX(20deg);

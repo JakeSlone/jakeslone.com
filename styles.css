@@ -264,11 +264,16 @@ section {
 }
 
 .entries {
-    margin-bottom: 100px;
+    margin-bottom: 60px;
     width: 350px;
     resize: auto;
     border: 1px solid #26d7ff;
     border-radius: 5px;
+}
+
+.text-move {
+    max-height: 180px;
+    max-width: 600px;
 }
 
 .submit {
@@ -404,14 +409,6 @@ section {
 
     .scroll-up {
         display: none;
-    }
-
-    .footer-nav-container {
-        margin-top: 180px;
-    }
-
-    .footer-nav-items {
-        padding-bottom: 30px;
     }
 }
 

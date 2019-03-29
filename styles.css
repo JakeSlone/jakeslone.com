@@ -53,9 +53,6 @@ section {
     transition: 0.2s;
 }
 
-.mobile-form {
-    display: none;
-}
 .menu__toggler {
     position: fixed;
     top: 20px;
@@ -247,12 +244,31 @@ section {
     width: 350px;
 }
 
-.form-container {
-    margin-top: 60px;
-}
-
 .scroll-up img {
     width: 60px;
+}
+
+.form-container {
+    margin: auto;
+    text-align: center;
+}
+
+.labels {
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.entries {
+    margin-bottom: 100px;
+    width: 350px;
+    resize: auto;
+    border: 1px solid #26d7ff;
+    border-radius: 5px;
+}
+
+.submit {
+    width: 200px;
 }
 
 .mobile-links {
@@ -295,10 +311,6 @@ section {
     .menu a {
         font-size: 25px;
     }
-    
-    .form-container {
-        margin-top: 10px;
-    }
 
     .scroll-up {
         display: none;
@@ -325,15 +337,6 @@ section {
 
     .projects-title {
         margin-top: 20px;
-    }
-
-    .form-container {
-        display: none;
-    }
-
-    .mobile-form {
-        display: block;
-        overflow: hidden;
     }
 
     .mobile-twitter {

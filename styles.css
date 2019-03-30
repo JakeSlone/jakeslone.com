@@ -410,6 +410,14 @@ section {
     .scroll-up {
         display: none;
     }
+
+    .form-container {
+        overflow: auto;
+    }
+
+    .footer-nav-items {
+        padding-top: 20px;
+    }
 }
 
 /* About Loader */

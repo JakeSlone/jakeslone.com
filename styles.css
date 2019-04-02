@@ -164,7 +164,7 @@ section {
 }
 
 .scroll-down1 img {
-    padding-top: 70px;
+    padding-top: 240px;
     width: 60px;
 }
 
@@ -222,10 +222,12 @@ section {
 .card {
     border: none;
     font-family: 'Inconsolata', monospace;
+    text-align: center;
 }
 
 .card img {
     border: 1px solid black;
+    width: 80%;
 }
 
 .card-text {
@@ -331,17 +333,19 @@ section {
         background-image: url('./img/mobile-background.svg');
     }
 
+    .wrapper {
+        margin-top: 40px;
+    }
+
     .fixed-social {
         display: none;
     }
 
     .mobile-links {
-    font-size: 60px;
-    margin-bottom: 100px;
-    }
-
-    .title-container img {
-        margin-bottom: -100px;
+        font-size: 60px;
+        display: block;
+        text-align: center;
+        padding-bottom: 100px;
     }
 
     #down1 {
@@ -361,7 +365,7 @@ section {
     }
 
     .mobile-email {
-        color: #ffef5b;
+        color: #363636;
     }
 
     .menu__toggler {
@@ -407,12 +411,20 @@ section {
         display: none;
     }
 
-    .scroll-up {
-        display: none;
+    .form-container {
+        overflow: inherit;
     }
 
-    .form-container {
-        overflow: auto;
+    .labels {
+        font-size: 28px;
+    }
+
+    .entries {
+        margin-bottom: 40px;
+    }
+
+    .scroll-up {
+        display: none;
     }
 
     .footer-nav-items {
@@ -533,6 +545,9 @@ section {
     border: 1px solid black;
 }
 
+::-webkit-full-screen {
+    cursor: none;
+}
 /* Arrow Bounce */
 @keyframes bounce {
     0%, 20%, 50%, 80%, 100% {

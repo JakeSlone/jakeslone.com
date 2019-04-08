@@ -141,6 +141,8 @@ section {
 
 .nav-container {
     margin-left: -10px;
+    flex-direction: column;
+    width: 60px;
 }
 
 .menu a {

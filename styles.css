@@ -165,7 +165,7 @@ section {
 }
 
 .scroll-down1 img {
-    padding-top: 240px;
+    padding-top: 220px;
     width: 60px;
 }
 
@@ -211,13 +211,13 @@ section {
 }
 
 .projects-title h5 {
-    padding-top: 80px;
+    padding-top: 40px;
     text-align: center;
     font-family: 'Raleway', sans-serif;
     font-size: 70px;
     border-bottom: 3px solid #26d7ff;
     width: 350px;
-    margin-bottom: 80px;
+    margin-bottom: 60px;
 }
 
 .card {

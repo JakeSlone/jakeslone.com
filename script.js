@@ -77,4 +77,12 @@ $(document).ready(function () {
         }, 2000);
     });
 });
+// Project gifs
+function ecommerceHover() {
+    $("#ecommerce").attr('src', 'img/drip.gif');
+}
+
+function offHover() {
+    $("#menuImg").attr('src', 'images/about.png');
+}
 

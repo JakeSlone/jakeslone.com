@@ -229,12 +229,14 @@ section {
 .card img {
     border: 1px solid black;
     width: 80%;
+    height: 188px;
 }
 
 .card-text {
     padding-left: 34px;
     padding-right: 28px;
     text-align: center;
+    font-size: 28px;
 }
 
 .scroll-down3 img {

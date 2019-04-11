@@ -42,9 +42,9 @@ $(document).ready(function () {
 let bioImg = document.getElementById('bioImg');
 let img = 0;
 let imgList = [
-    "./img/code1.jp2",
+    "./img/code1.jpg",
     "./img/code2.png",
-    "./img/code3.jp2"
+    "./img/code3.jpg"
 ]
 setInterval(function() {
     img += 1;
